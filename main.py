@@ -16,8 +16,8 @@ N = N0 * np.exp(-lam * t)
 
 # Display
 plt.plot(t, N)
-plt.xlabel("Time")
-plt.ylabel("Number of Nuclei")
+plt.xlabel("Time (arbitrary units)")
+plt.ylabel("Remaining Number of Nuclei")
 plt.title("Radioactive Decay Simulation")
 plt.grid(True)
 plt.savefig("decay_curve.png", dpi=300, bbox_inches="tight")
